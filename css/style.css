@@ -303,7 +303,7 @@ h3.my-profession
     width: 80px;
     border-bottom: 10px solid var(--skin-color);
     border-right: 10px solid var(--skin-color);
-    right: 5px;
+    right: 20px;
     bottom: -40px;
 }
 .home-img::before
@@ -320,6 +320,7 @@ h3.my-profession
 .home .home-img img
 {
     margin: auto;
+    border-radius: 5px;
     height: 400px;
 }
 /* About */
@@ -719,5 +720,39 @@ h3.my-profession
     {
         display: block;
         margin-left: 0;
+    }
+}
+@media (max-width:991px)
+{
+    .contact .contact-info-item,
+    .portfolio .portfolio-item,
+    .service .service-item
+    {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .home .home-info
+    {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .home .home-img
+    {
+        display: none;
+    }
+}
+@media (max-width:767px)
+{
+    .contact .contact-form .col-6,
+    .contact .contact-info-item,
+    .portfolio .portfolio-item,
+    .service .service-item,
+    .about .about-content .experience,
+    .about .about-content .education,
+    .about .about-content .skills,
+    .about .about-content .personal-info
+    {
+        flex: 0 0 100%;
+        max-width: 100%;
     }
 }
