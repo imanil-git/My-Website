@@ -41,4 +41,7 @@ typeEffect();                       // This starts the typing effect when the pa
 //     typeSpeed:100,
 //     BackSpeed:60,
 //     loop:true
+final
 // })
+// })
+main
