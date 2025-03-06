@@ -312,8 +312,8 @@ h3.my-profession
     width: 80px;
     border-bottom: 10px solid var(--skin-color);
     border-right: 10px solid var(--skin-color);
-    right: 20px;
-    bottom: -40px;
+    right: 15px;
+    bottom: -60px;
 }
 .home-img::before
 {
@@ -323,7 +323,7 @@ h3.my-profession
     width: 80px;
     border-top: 10px solid var(--skin-color);
     border-left: 10px solid var(--skin-color);
-    left: -20px;
+    left: -5px;
     top: -40px;
 }
 .home .home-img img
@@ -616,7 +616,7 @@ h3.my-profession
 }
 .portfolio .portfolio-item-inner
 {
-    border: 6px solid var(--bg-black-100);
+    /* border: 6px solid var(--bg-black-100); */
     border-radius: 10px;
     overflow: hidden;
     cursor: pointer;
