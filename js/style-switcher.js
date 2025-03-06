@@ -1,4 +1,4 @@
-/* ===============  toggler-style-switcher  =============== */
+/* ===============  Toggler-style-switcher  =============== */
 const styleSwitcherToggle = document.querySelector(".style-switcher-toggler");
 styleSwitcherToggle.addEventListener("click", () => {
   document.querySelector(".style-switcher").classList.toggle("open");
@@ -9,7 +9,7 @@ window.addEventListener("scroll", () => {
     document.querySelector(".style-switcher").classList.remove("open");
   }
 });
-/* ===============  theme colors  ===============*/
+/* ===============  Theme colors  ===============*/
 const alternateStyles = document.querySelectorAll(".alternate-style");
 function setActiveStyle(color) {
   alternateStyles.forEach((style) => {
@@ -20,7 +20,7 @@ function setActiveStyle(color) {
     }
   });
 }
-/* ====================  theme light and dark mode  =====================*/
+/* ====================  Theme light and dark mode  =====================*/
 const dayNight = document.querySelector(".day-night");
 dayNight.addEventListener("click", () => {
   dayNight.querySelector("i").classList.toggle("fa-sun");
